@@ -11,8 +11,7 @@ end
 my_function(meal_price, tip_percentage)
 
 puts "Would you like to split it? Y or N"
-should_i_split = gets.chomp 
-should_i_split.downcase!
+should_i_split = gets.chomp.downcase! 
 
 # Adding costs together 
 $total_price = $tip_amount + meal_price
